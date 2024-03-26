@@ -34,9 +34,6 @@ body {
     margin: 0 -12px;
 }
 .card {
-    width: 100%;
-    max-width: 200px;
-    max-height: 200px;
     display: inline-block;
     box-sizing: content-box;
     padding: 0 12px;
