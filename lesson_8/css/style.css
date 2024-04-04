@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand:500,700&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+@import url("fonts.css");
+
+@import url("reset.css");
+
+/* ----------------------------------------- */
+body {
+    font-family: "Exo", sans-serif;
+}
+.header {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 30px 0;
+    background-color: rgb(176, 106, 241);
+    border-radius: 30px;
+    margin-bottom: 40px;
+}
+.footer {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 40px 0;
+    background-color: rgb(106, 165, 241);
+    border-radius: 30px;
+}
+.lesson__title {
+    color: #fff;
+    font-size: 50px;
+    text-align: center;
+}
+/* ------------------------------------------ */
+.body {
+    font-size: 20px;
+}
+.body__container {
+    max-width: 1080px;
+    margin: 0 auto 40px;
+    padding: 15px;
+}
+.body__item {
+    margin-bottom: 20px;
+}
+.body__item img {
+    vertical-align: middle;
+}
+.body__item span {
+    margin-left: 15px;
+}
