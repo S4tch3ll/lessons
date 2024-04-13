@@ -1,0 +1,246 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand:500,700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Exo:300,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Orbitron:500&display=swap');
+
+@import url("fonts.css");
+
+@import url("reset.css");
+
+.lesson__title {
+    font-size: 40px;
+    text-align: center;
+}
+/* -------------KROVATO----------- */
+.krovato {
+    font-family: 'Proxima Nova Rg', sans-serif;
+    line-height: 1.875; /* 30/16 */
+    color: #2b2929;
+    margin-bottom: 50px;
+}
+.krovato__container {
+    max-width: 1070px;
+    margin: 0 auto;
+}
+.living-room > * {
+    margin-bottom: 40px;
+}
+.room__title {
+    font-size: 40px;
+    line-height: 1.875; /* 30/16 */
+    font-weight: bold;
+}
+.room__title-2 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.room__image img {
+    border-radius: 8px;
+}
+.room__text {
+    margin-bottom: 40px;
+}
+.room__text p:not(:last-child) {
+    margin-bottom: 30px;
+}
+.list {
+    margin-bottom: 40px;
+}
+.item {
+    padding-left: 47px;
+    margin-bottom: 20px;
+    background-image: url("../img/krovato/check-mark.svg");
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+}
+.living-room > *:last-child {
+    margin-bottom: 0;
+}
+/* -------------PORTFOLIO--------------- */
+
+.portfolio__about {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 2.22; /* 40/18 */
+    background: url(../img/portfolio/background.jpg);
+    padding: 120px 0;
+    margin-bottom: 50px;
+}
+.portfolio__container {
+    max-width: 1512px;
+    margin: 0 auto;
+}
+.about {
+    color: white;
+    text-align: center;
+}
+.about__content {
+    max-width: 992px;
+    margin: 0 auto 60px;
+}
+.about__title {
+    margin-bottom: 20px;
+}
+.sub-title {
+    display: inline-block;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.16; /* 70/60 */
+    text-transform: uppercase;
+}
+.about__title::after {
+    content: "";
+    height: 1px;
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    background: rgb(255,0,0);
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(0,255,34,1) 50%, rgba(0,22,255,1) 100%);
+}
+.about__text {
+    text-transform: capitalize;
+}
+.about__list {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 1.25; /* 25/20 */
+    max-width: 1150px;
+    margin: 0 auto;
+    text-align: left;
+}
+.about__item {
+    display: inline-block;
+}
+.about__item:not(:first-child) {
+    padding-left: 60px;
+}
+.about__item::after {
+    content: "";
+    background-image: url(../img/portfolio/rgb-icon.svg);
+    background-repeat: no-repeat;
+    width: 10px;
+    height: 10px;
+    vertical-align: middle;
+    margin-left: 60px;
+}
+/* -------------CONTACTS--------------- */
+
+.contacts {
+    padding: 80px 0;
+    background-color: #000;
+    margin-bottom: 40px;
+}
+.contacts__container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.contacts__list {
+    font-family: "Exo", sans-serif;
+    font-size: 20px;
+    color: #fff;
+}
+.contacts__item {
+    padding-left: 40px;
+}
+.contacts__item:not(:last-child) {
+    margin-right: 80px;
+}
+.contacts__phone {
+    background: url(../img/portfolio/contacts-icons/phone.svg);
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+}
+.contacts__address {
+    text-transform: capitalize;
+    background: url(../img/portfolio/contacts-icons/address.svg);
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+}
+.contacts__mail {
+    background: url(../img/portfolio/contacts-icons/mail.svg);
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+}
+/* --------------GAME--------------- */
+.game {
+    font-family: "Quicksand", sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+.game__container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.game__block {
+    padding-bottom: 50px;
+}
+.game__item-1 {
+    background-color: rgb(19, 151, 19);
+    width: 40px;
+    height: 120px;
+}
+.game__item-2 {
+    background-color: rgb(19, 151, 19);
+    height: 40px;
+    width: 100%;
+    visibility: hidden;
+}
+.game__item-1:hover + .game__item-2,
+.game__item-2:hover {
+    visibility: visible;
+}
+.game__item-3 {
+    background-color: rgb(19, 151, 19);
+    width: 40px;
+    height: 120px;
+    margin-left: auto;
+    visibility: hidden;
+}
+.game__item-2:hover + .game__item-3,
+.game__item-3:hover {
+    visibility: visible;
+}
+.game__item-4 {
+    background-color: rgb(19, 151, 19);
+    height: 30px;
+    width: 510px;
+    margin-left: auto;
+    visibility: hidden;
+}
+.game__item-3:hover + .game__item-4,
+.game__item-4:hover {
+    visibility: visible;
+}
+.game__item-5 {
+    background-color: rgb(19, 151, 19);
+    width: 20px;
+    height: 120px;
+    visibility: hidden;
+    margin: 0 auto;
+}
+.game__item-4:hover + .game__item-5,
+.game__item-5:hover {
+    visibility: visible;
+}
+.game__item-6 {
+    background-color: rgb(211, 39, 39);
+    height: 20px;
+    width: 20px;
+    margin: 0 auto 30px;
+    visibility: hidden;
+}
+.game__item-5:hover + .game__item-6,
+.game__item-6:hover {
+    visibility: visible;
+}
+.game__title-2 {
+    visibility: hidden;
+}
+.game__item-6:hover + .game__title-2{
+    visibility: visible;
+}
